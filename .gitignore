@@ -1,0 +1,6 @@
+# 本地预览产物，不进入仓库
+preview.html
+preview.png
+seg*.png
+rendered.html
+err.txt
