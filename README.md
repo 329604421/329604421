@@ -36,7 +36,7 @@
         <li>手机与眼镜端共享同一份数据</li>
       </ul>
       <p><sub>只做记录、核对与管理，不卖票、不代购。</sub></p>
-      <p><a href="https://lottery.memorymap.cn">lottery.memorymap.cn</a> ↗</p>
+      <p><a href="https://lottery.memorymap.cn">lottery.memorymap.cn</a> ↗ · <a href="https://github.com/329604421/goodluck-plus">仓库</a></p>
     </td>
   </tr>
 </table>
@@ -57,7 +57,7 @@
         <li>单绿透明显示，围绕真实设备约束做设计</li>
       </ul>
       <p><sub>交互不为炫技服务：所有操作都能在抬头状态下单手完成。</sub></p>
-      <p><a href="https://shake.memorymap.cn">shake.memorymap.cn</a> ↗</p>
+      <p><a href="https://shake.memorymap.cn">shake.memorymap.cn</a> ↗ · <a href="https://github.com/329604421/shake-head">仓库</a></p>
     </td>
   </tr>
 </table>
@@ -78,7 +78,7 @@
         <li>手机接住、平板整理、PC 派活</li>
       </ul>
       <p><sub>公开入口为演示实例，正式交付按客户独立部署。</sub></p>
-      <p><a href="https://todo.memorymap.cn">todo.memorymap.cn</a> ↗ · <a href="https://todo.memorymap.cn/manual.html">操作手册</a></p>
+      <p><a href="https://todo.memorymap.cn">todo.memorymap.cn</a> ↗ · <a href="https://todo.memorymap.cn/manual.html">操作手册</a> · <a href="https://github.com/329604421/agent-todo">仓库</a></p>
     </td>
   </tr>
 </table>
@@ -94,6 +94,21 @@
 | DISCOVER | DEFINE | BUILD | SHIP | ITERATE |
 
 我更在意的不是「用了什么模型」，而是**需求转译的损耗有没有减少**——让理解业务的人直接参与实现，让原始场景、约束与验收标准始终在同一条线上。
+
+---
+
+## 技术方向
+
+| 方向 | 关注点 |
+| --- | --- |
+| AR / 可穿戴交互 | 头控输入手感、透明屏的信息密度、没有手柄时操作怎么收敛 |
+| AI Agent 工程化 | 待办与 agent 之间的任务契约、配额与运行态、结果回流的可读性 |
+| 小程序全栈 | 票据拍照 OCR、本地优先的数据层、日历与热力图的轻量可视化 |
+| 设计工程化 | 设计稿与代码的单点真相，让 1px 级的反馈能落进版本控制 |
+
+代码写在 [shake-head](https://github.com/329604421/shake-head)（五款头控游戏，
+含 1378 条回归断言）与 [goodluck-plus](https://github.com/329604421/goodluck-plus)（好运夹的需求、
+设计规范与工程）。
 
 ---
 
