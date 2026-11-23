@@ -18,7 +18,7 @@
 
 ## 独立产品
 
-三个真实问题，三种产品形态。都从一个具体场景开始，也都走到了可以体验的地方。
+四个真实问题，四种产品形态。都从一个具体场景开始，也都走到了可以体验的地方。
 
 <table>
   <tr>
@@ -83,6 +83,27 @@
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td width="46%" valign="top">
+      <a href="https://tinyfish.memorymap.cn"><img src="assets/product-tinyfish.png" alt="小鱼缸 TinyFish：DSH 工作台内铺满窗口的透明玻璃缸、鱼群与左侧鱼食面板"></a>
+    </td>
+    <td width="54%" valign="top">
+      <h3>04 · 小鱼缸 TinyFish</h3>
+      <p><code>DSH 插件 · 三维交互 · 已开源</code></p>
+      <p><strong>把一只鱼缸，放进写代码的间隙。</strong></p>
+      <ul>
+        <li>DSH 桌面工作台里的透明三维鱼缸，全屏观赏</li>
+        <li>拖动旋转、滚轮放大到 2.2×、单击惊鱼、舀一勺投喂</li>
+        <li>Token 每满 5M 换 5 勺鱼食，账目可手算核对</li>
+        <li>缸体、灯具、造景、鱼群、投喂习惯五个维度可定制</li>
+      </ul>
+      <p><sub>全程离线，运行时不发网络请求、不上传任何数据。</sub></p>
+      <p><a href="https://tinyfish.memorymap.cn">tinyfish.memorymap.cn</a> ↗ · <a href="https://github.com/329604421/dsh-tiny-fish">仓库</a></p>
+    </td>
+  </tr>
+</table>
+
 <sub>还有一些工具、应用与交互实验，正在路上。</sub>
 
 ---
@@ -114,7 +135,7 @@
 | **C · 硬件与空间交互** | 围绕传感器、显示与输入的真实约束设计交互：头控手感、透明屏的信息密度 | IMU 头控、Rokid 单绿 AR、RFID、重力与视觉识别 |
 | **D · 业务系统与集成** | 把新能力接进现有角色、数据与流程，兼顾目标与可行性 | SCRM、DMS、CRM、微信支付、支付宝、企业流程 |
 
-代码写在 [shake-head](https://github.com/329604421/shake-head)（五款头控游戏，含 1378 条回归断言）与 [goodluck-plus](https://github.com/329604421/goodluck-plus)（好运夹的需求、设计规范与工程）。
+代码写在 [shake-head](https://github.com/329604421/shake-head)（五款头控游戏，含 1378 条回归断言）、[goodluck-plus](https://github.com/329604421/goodluck-plus)（好运夹的需求、设计规范与工程）与 [dsh-tiny-fish](https://github.com/329604421/dsh-tiny-fish)（DSH 鱼缸插件，Three.js 渲染与离线资源内联）。
 
 ---
 
